@@ -1,4 +1,9 @@
 {
+  "log": {
+    "access": "/var/log/v2ray/access.log",
+    "error": "/var/log/v2ray/access.log",
+    "loglevel": "info"
+  },
   "inbound": {
     "port": 10086,
     "protocol": "vmess",
