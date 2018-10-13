@@ -1,7 +1,7 @@
 {
   "log": {
     "access": "/var/log/v2ray/access.log",
-    "error": "/var/log/v2ray/access.log",
+    "error": "/var/log/v2ray/error.log",
     "loglevel": "info"
   },
   "inbound": {
@@ -15,6 +15,10 @@
           "alterId": 64
         }
       ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none"
     }
   },
   "outbound": {
